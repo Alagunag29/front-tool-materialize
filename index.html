@@ -1,0 +1,256 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <meta charset="utf-8">
+         <title>Herramientas</title>
+         <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0 " >
+         <link rel="stylesheet" href="./assets/css/style.css">
+     </head>
+     <body>
+         <!--Solo se usa la grid y los colores de materialize -->
+         <section class="row">
+
+             <header class="row  grey darken-2 white-text title flow-text ">
+                <h7 class="col s12 ">Herramienta</h7>
+             </header>
+             <section class="row">
+                 <div class="col s1 m2 no-padding  ">
+                    <ul class="col ">
+                        <li class="">
+                            <a href="" class="">Seguimiento <i class=""></i></a>
+                        </li>
+                    </ul>
+                 </div>
+                 <div class="col s12 m10 ">
+                    <div class="col s12 grey lighten-3 aparence ">
+                        <a href="#" class="">Inicio</a> <span class="">/</span> <span class="">Seguimiento</span>
+                    </div>
+                    <div class="col s12 boder-container no-padding">
+                        <div class=" grey lighten-3">
+                            <span class="adicionar">Adicionar</span>
+                        </div>
+                        <form class="col s12 formulario">
+                             <div class="col s12">
+                                 <div class="col s12 contaider-input ">
+                                     <label for="" class="col s12 label">CODIGO REPORTE</label>
+                                     <input type="text" name="" placeholder="01012017AIPE012N1"  id="cod-report" required class="col s12 input">
+                                 </div>
+                                 <div class="col s12 contaider-input">
+                                     <label for="property" class="col s12 label">PREDIO</label>
+                                     <select name="" id="property" required class="col s12 input">
+                                         <option value="0">AIPO12-LA CHONTA LOTE 4</option>
+                                         <option value="1">AIPO12-LA CHONTA LOTE 3</option>
+                                         <option value="2">AIPO12-LA CHONTA LOTE 2</option>
+                                         <option value="3">AIPO12-LA CHONTA LOTE 1</option>
+                                     </select>
+                                 </div>
+                                 <div class="col s12 contaider-input">
+                                    <label for="interviewer" class="col s12 label">ENCUESTADOR</label>
+                                    <select name="" id="interviewer" required class="col s12 input">
+                                        <option value="0">Gheynner Lobaton</option>
+                                        <option value="1">Gheynner Lobaton</option>
+                                        <option value="2">Gheynner Lobaton</option>
+                                        <option value="3">Gheynner Lobaton</option>
+                                    </select>
+                                 </div>
+                                 <div class="col s12 contaider-input">
+                                    <label for="date" class="col s12 label">FECHA</label>
+                                    <div class="col s12 container-calendari">
+                                        <input type="number" name="" placeholder="01" class="col s3 calendar">
+                                        <input type="number" name="" placeholder="01" class="col s3 calendar">
+                                        <input type="number" name="" placeholder="2017" class="col s3 calendar">
+                                    </div>
+                                 </div>
+                                 <div class="col s12 contaider-input">
+                                    <label for="respondents" class="label">ENCUESTADO</label>
+                                    <input type="text" name="" placeholder="BERNARDO BERTEL" id="respondents" required class="input">
+                                 </div>
+                                 <div class="col s12 contaider-input">
+                                    <label for="report" class="label">TIPO REPORTE</label>
+                                    <select name="" id="report" required class="input">
+                                        <option value="0">IMPLEMENTACION</option>
+                                        <option value="1">IMPLEMENTACION</option>
+                                        <option value="2">IMPLEMENTACION</option>
+                                        <option value="3">IMPLEMENTACION</option>
+                                    </select>
+                                 </div>
+                             </div>
+                             <div class="col s12">
+                                 <div class="col s12 container-implementacion no-padding">
+                                <div class="col s12 light-blue lighten-4 container-title-implementacion">
+                                    <span class=" title-implementacion">Implementación de Herramientas</span>
+                                </div>
+                                <div class="col s12 ass">
+                                    <div class=" col s12 padding-col">
+                                        <div class="col s12 padding-col contaider-input">
+                                            <label for="" class="col s12 label padding-col ">CODIGO HMP</label>
+                                            <select name="" id="" required class="input padding-col">
+                                                <option value="0">AIPE012-EFB1</option>
+                                                <option value="1">AIPE012-EFB2</option>
+                                                <option value="2">AIPE012-EFB3</option>
+                                                <option value="3">AIPE012-EFB4</option>
+                                                <option value="4">AIPE012-EFB5</option>
+                                            </select>
+                                        </div>
+                                        <div class="col s12 padding-col contaider-input">
+                                            <label for="" class="col s12 label padding-col">COBERTURA</label>
+                                            <select name="" class=" input">
+                                                <option value="bosque">Bosque abierto</option>
+                                                <option value="bosque1">Bosque ceerrado</option>
+                                                <option value="bosque2">Bosque medio</option>
+                                            </select>
+                                        </div>
+                                        <div class="col s12 padding-col contaider-input">
+                                            <label for="tam-estable" class="col s12 label padding-col">TAMAÑO PREPARADO</label>
+                                            <div class="col s12 label padding-col picker__footer">
+                                                <input type="text" name="" value="" placeholder="15.3" id="tam-estable" class="col s3 input padding-col">
+                                                <select name="" class="col s8 input">
+                                                    <option value="">Ha</option>
+                                                    <option value="">He</option>
+                                                    <option value="">Hi</option>
+                                                    <option value="">Ho</option>
+                                                    <option value="">Hu</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 padding-col contaider-input">
+                                            <label for="" class="col s12 label padding-col">INICIO ESTABLECIMIENTO</label>
+                                            <div class="col s12 label padding-col">
+                                                <input type="number" name="" placeholder="01" class="col s3 calendar">
+                                                <input type="number" name="" placeholder="01" class="col s3 calendar">
+                                                <input type="number" name="" placeholder="01" class="col s3 calendar">
+                                                <i class="" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 padding-col contaider-input">
+                                            <label for="end-establishment" class="col s12 label padding-col">FIN ESTABLECIMIENTO</label>
+                                            <div class="col s12 label padding-col">
+                                                <input type="number" name="" placeholder="01" class="col s3 calendar" id="end-establishment">
+                                                <input type="number" name="" placeholder="01" class="col s3 calendar">
+                                                <input type="number" name="" placeholder="01" class="col s3 calendar">
+                                                <i class="" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 padding-col contaider-input">
+                                            <label for="" class="col s12 label padding-col">TAMAÑO ESTABLECIDO</label>
+                                            <div class="col s12 label padding-col picker__footer">
+                                                <input type="text" name="" value="" placeholder="15.3" id="tam-estable" class="col s3 input padding-col">
+                                                <select name="" class="col s8 input">
+                                                    <option value="">Ha</option>
+                                                    <option value="">He</option>
+                                                    <option value="">Hi</option>
+                                                    <option value="">Ho</option>
+                                                    <option value="">Hu</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 padding-col contaider-input">
+                                            <label for="number-planta" class="col s12 label padding-col"># PLANTAS ESTABLECIDAS</label>
+                                            <input type="text" name="" value="" class="col s12 input padding-col" id="number-planta">
+                                        </div>
+                                    </div>
+                                     <div class="col s12 padding-col">
+                                        <div class="col s12 padding-col margin-table">
+                                           <table>
+                                               <tr >
+                                                   <th class="" colspan="3">Especies</th>
+                                               </tr>
+                                               <tr>
+                                                   <th class="">Especie</th>
+                                                   <th class="">Cantidad</th>
+                                                   <th class="">Acciones</th>
+                                               </tr>
+                                               <tr>
+                                                   <td>Acacio</td>
+                                                   <td>20</td>
+                                                   <td>
+                                                       <input type="button" name="" value="Editar" class="button-table button-edit">
+                                                       <input type="button" name="" value="Borrar" class="button-table button-reset">
+                                                   </td>
+                                               </tr>
+                                               <tr>
+                                                   <td>Algarrobo</td>
+                                                   <td>15</td>
+                                                   <td>
+                                                       <input type="button" name="" value="Editar" class="button-table button-edit">
+                                                       <input type="button" name="" value="Borrar" class="button-table button-reset">
+                                                   </td>
+                                               </tr>
+                                               <tr>
+                                                   <td>Bijao</td>
+                                                   <td>43</td>
+                                                   <td>
+                                                       <input type="button" name="" value="Editar" class="button-table button-edit">
+                                                       <input type="button" name="" value="Borrar" class="button-table button-reset">
+                                                   </td>
+                                               </tr>
+                                           </table>
+                                        </div>
+                                        <div class="col s12 padding-col margin-table">
+                                          <table>
+                                              <tr>
+                                                  <th class="" colspan="3">Material</th>
+                                              </tr>
+                                              <tr>
+                                                  <th class="">Material</th>
+                                                  <th class="">Cantidad</th>
+                                                  <th class="">Acciones</th>
+                                              </tr>
+                                              <tr>
+                                                  <td>Rollos de alambre</td>
+                                                  <td>5</td>
+                                                  <td>
+                                                      <input type="button" name="" value="Editar" class="button-table button-edit">
+                                                      <input type="button" name="" value="Borrar" class="button-table button-reset">
+                                                  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Palas</td>
+                                                  <td>3</td>
+                                                  <td>
+                                                      <input type="button" name="" value="Editar" class="button-table button-edit">
+                                                      <input type="button" name="" value="Borrar" class="button-table button-reset">
+                                                  </td>
+                                              </tr>
+                                          </table>
+                                       </div>
+                                       <div class="col s12 padding-col contaider-input">
+                                          <label for="file" class="col s12 label padding-col" >Foto</label>
+                                          <div class="col s12 padding-col picker__footer">
+                                              <input type="text" name="" value="" placeholder="--" id="file" class="col s9 padding-col calendar">
+                                              <label for="file" class="col s3 label padding-col urlFlickr ">URL Flickr</label>
+                                          </div>
+                                      </div>
+                                       <div class="col s12 padding-col contaider-input">
+                                           <label for="textarea" class="col s12 label padding-col">Observaciones</label>
+                                           <textarea name="name" rows="5" cols="48" placeholder="--" id="textarea" class="col s12 padding-col calendar"></textarea>
+                                      </div>
+                                    </div>
+                                </div>
+                             </div>
+                            </div>
+                             <div class="col s12">
+                                 <div class="col s12 no-padding">
+                                     <button class="col s6 m3 l2 botton green lighten-1" type="submit" name="guardar">Guardar
+                                        <i class="material-icons right"></i>
+                                      </button>
+                                 </div>
+                                 <div class="col s12 no-padding">
+                                     <button class=" col s6 m3 l2 botton grey darken-1" type="submit" name="regresar">Regresar a la lista
+                                        <i class="material-icons right"></i>
+                                      </button>
+                                 </div>
+
+                             </div>
+                        </form>
+                    </div>
+                 </div>
+             </section>
+
+         </section>
+         <!--
+         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+        <script type="text/javascript" src="./assets/js/index.js"></script>-->
+     </body>
+ </html>
